@@ -1,4 +1,5 @@
-xgb.txt
+xgbpoly.txt
 *.csv
 .env
 fold*
+*.pem

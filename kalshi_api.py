@@ -5,10 +5,14 @@ from urllib.parse import urlparse
 from cryptography.hazmat.primitives import serialization, hashes
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives.asymmetric import padding
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Configuration
-API_KEY_ID = '023af655-b239-4297-b1a3-6dac197cb1b3'
-PRIVATE_KEY_PATH = 'xgb.txt'
+API_KEY_ID = os.getenv('API_KEY')
+PRIVATE_KEY_PATH = 'xgbpoly.txt'
 BASE_URL = 'https://api.elections.kalshi.com/trade-api/v2'
 
 def load_private_key(key_path):
