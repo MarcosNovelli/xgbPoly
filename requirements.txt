@@ -1,0 +1,17 @@
+pandas>=2.0
+pyarrow>=14.0
+requests>=2.28
+python-dotenv>=1.0
+rich>=13.0
+xgboost>=2.0
+numpy>=2.0
+scikit-learn>=2.0
+scipy>=2.0
+matplotlib>=2.0
+seaborn>=2.0
+statsmodels>=2.0
+pandas-datareader>=2.0
+pandas-ta>=2.0
+pandas-ta-utils>=2.0
+pandas-ta-utils-utils>=2.0
+pandas-ta-utils-utils-utils>=2.0
